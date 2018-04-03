@@ -1,0 +1,21 @@
+Exporting Blend to DAE when using shape keys:
+
+Update the better collada exporter so you get "Export Shape Keys" option,
+
+Check On:
+  Selected Objects
+  Tangent Arrays
+  Triangulate
+  Active Layers
+  Exclude Control bones
+  Export Animation
+  All Actions
+  Optimize Keyframes
+  Shape Keys
+  
+
+The following two options are in Object data tab.
+Use shape keys "Relative" option
+Set Normals to Auto smooth.
+
+Hopefully that allows for a usable shape keys export without breaking the mesh or making the mesh disappear!
